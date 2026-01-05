@@ -7,7 +7,7 @@
 # 5) Option 2: cmake -S .. -B .
 # 6) ./Executable 
 
-cmake_minimum_required(VERSION 4.2.1)                                           # Minimum CMake Version Required
+cmake_minimum_required(VERSION 3.0.0)                                           # Minimum CMake Version Required
 
 project(                                                                        # Our Project Function Have three parameters, Project Name, Code Version and Languages.
     CppProjectTemplate 
@@ -16,3 +16,8 @@ project(                                                                        
 
 add_executable(Executable main.cpp)                                             # We add our executable file to the Project to be processed by cmake.
 
+
+
+# Generators:
+# They are used to generated the Makefiles based on the tool being used.
+# We want to use the Unix Makefile or the Visual Studio Makefile often.
