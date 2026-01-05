@@ -1,0 +1,49 @@
+# Build Directories
+build/
+bin/
+[Dd]ebug/
+[Rr]elease/
+
+# Object files, static and dynamic libraries
+*.o
+*.obj
+*.lo
+*.la
+*.libs
+*.so
+*.a
+*.lib
+*.dll
+
+# Executables and DWARF debug info files
+*.exe
+*.out
+*.app
+*.dSYM/
+*.dwo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Intermediate files
+*.ilk
+*.pdb
+
+# SWIG intermediate files
+*.swigout
+
+# IDE-specific files (Visual Studio, CMake, CLion, etc.)
+# Uncomment or add specific lines as needed for your environment
+.idea/           # CLion
+.vscode/         # VS Code
+*.suo            # Visual Studio
+*.user           # Visual Studio
+*.userprefs      # MonoDevelop/Xamarin Studio
+CMakeCache.txt   # CMake
+CMakeFiles/      # CMake
+Makefile         # CMake, if generated
+cmake_install.cmake # CMake
+install_manifest.txt # CMake
+CTestTestfile.cmake # CMake
+# For a comprehensive list of IDE-specific files, use the GitHub templates
